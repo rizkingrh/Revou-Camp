@@ -1,0 +1,79 @@
+body {
+    font-family: sans-serif;
+    margin: 25px;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+}
+.content #form {
+    display: flex;
+    flex: 1;
+    align-content: start;
+    justify-content: start;
+}
+.content #table {
+    display: flex;
+    flex: 1;
+    align-content: center;
+    justify-content: center;
+}
+
+/* Style table */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid rgb(182, 179, 179);
+    text-align: center;
+    padding: 8px;
+}
+
+th {
+    background-color: #dddddd;
+}
+
+/* Style Form */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.form-row {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+}
+.form-row > label {
+    flex: 0.8;
+}
+.form-row > input {
+    flex: 2;
+}
+.gender_options {
+    padding-right: 100px;
+}
+.form-row > textarea {
+    flex: 2;
+}
+.form-row > input,
+.form-row > button {
+    padding: .5em;
+}
+.form-row > button {
+    flex: 1;
+    background: gray;
+    color: white;
+    border: 0;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
